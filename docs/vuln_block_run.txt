@@ -1,0 +1,4 @@
+checked 63 SBOM components against 1 known-vulnerable fixture entries
+BLOCKED: 1 vulnerable dependency match(es) found:
+  - pyyaml@5.3.1 matches CVE-2020-14343 (high): Full-loader arbitrary code execution, fixed upstream in PyYAML 5.4. Used here as a representative newly disclosed vulnerability, not pulled from a live feed.
+MERGE BLOCK RESULT: FAIL

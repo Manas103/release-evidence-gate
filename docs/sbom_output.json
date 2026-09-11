@@ -1,0 +1,458 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:c1e256b3-5e20-403b-95bb-d11bc6dcf2c1",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-09-11T18:52:09Z",
+    "component": {
+      "type": "application",
+      "bom-ref": "release-evidence-gate-audited-service",
+      "name": "release-evidence-gate-audited-service",
+      "version": "1.0.0"
+    }
+  },
+  "components": [
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/requests@2.31.0",
+      "name": "requests",
+      "version": "2.31.0",
+      "purl": "pkg:pypi/requests@2.31.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/flask@3.0.3",
+      "name": "flask",
+      "version": "3.0.3",
+      "purl": "pkg:pypi/flask@3.0.3"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/django@4.2.13",
+      "name": "django",
+      "version": "4.2.13",
+      "purl": "pkg:pypi/django@4.2.13"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/numpy@1.26.4",
+      "name": "numpy",
+      "version": "1.26.4",
+      "purl": "pkg:pypi/numpy@1.26.4"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pandas@2.2.2",
+      "name": "pandas",
+      "version": "2.2.2",
+      "purl": "pkg:pypi/pandas@2.2.2"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/scipy@1.13.0",
+      "name": "scipy",
+      "version": "1.13.0",
+      "purl": "pkg:pypi/scipy@1.13.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/scikit-learn@1.4.2",
+      "name": "scikit-learn",
+      "version": "1.4.2",
+      "purl": "pkg:pypi/scikit-learn@1.4.2"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/matplotlib@3.8.4",
+      "name": "matplotlib",
+      "version": "3.8.4",
+      "purl": "pkg:pypi/matplotlib@3.8.4"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pillow@10.3.0",
+      "name": "pillow",
+      "version": "10.3.0",
+      "purl": "pkg:pypi/pillow@10.3.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/sqlalchemy@2.0.30",
+      "name": "sqlalchemy",
+      "version": "2.0.30",
+      "purl": "pkg:pypi/sqlalchemy@2.0.30"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pydantic@2.7.1",
+      "name": "pydantic",
+      "version": "2.7.1",
+      "purl": "pkg:pypi/pydantic@2.7.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/fastapi@0.111.0",
+      "name": "fastapi",
+      "version": "0.111.0",
+      "purl": "pkg:pypi/fastapi@0.111.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/uvicorn@0.29.0",
+      "name": "uvicorn",
+      "version": "0.29.0",
+      "purl": "pkg:pypi/uvicorn@0.29.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/click@8.1.7",
+      "name": "click",
+      "version": "8.1.7",
+      "purl": "pkg:pypi/click@8.1.7"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/jinja2@3.1.4",
+      "name": "jinja2",
+      "version": "3.1.4",
+      "purl": "pkg:pypi/jinja2@3.1.4"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/markupsafe@2.1.5",
+      "name": "markupsafe",
+      "version": "2.1.5",
+      "purl": "pkg:pypi/markupsafe@2.1.5"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/werkzeug@3.0.3",
+      "name": "werkzeug",
+      "version": "3.0.3",
+      "purl": "pkg:pypi/werkzeug@3.0.3"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/itsdangerous@2.2.0",
+      "name": "itsdangerous",
+      "version": "2.2.0",
+      "purl": "pkg:pypi/itsdangerous@2.2.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/cryptography@42.0.7",
+      "name": "cryptography",
+      "version": "42.0.7",
+      "purl": "pkg:pypi/cryptography@42.0.7"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyjwt@2.8.0",
+      "name": "pyjwt",
+      "version": "2.8.0",
+      "purl": "pkg:pypi/pyjwt@2.8.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/boto3@1.34.105",
+      "name": "boto3",
+      "version": "1.34.105",
+      "purl": "pkg:pypi/boto3@1.34.105"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/botocore@1.34.105",
+      "name": "botocore",
+      "version": "1.34.105",
+      "purl": "pkg:pypi/botocore@1.34.105"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/redis@5.0.4",
+      "name": "redis",
+      "version": "5.0.4",
+      "purl": "pkg:pypi/redis@5.0.4"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/celery@5.4.0",
+      "name": "celery",
+      "version": "5.4.0",
+      "purl": "pkg:pypi/celery@5.4.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/kombu@5.3.7",
+      "name": "kombu",
+      "version": "5.3.7",
+      "purl": "pkg:pypi/kombu@5.3.7"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/gunicorn@22.0.0",
+      "name": "gunicorn",
+      "version": "22.0.0",
+      "purl": "pkg:pypi/gunicorn@22.0.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/psycopg2-binary@2.9.9",
+      "name": "psycopg2-binary",
+      "version": "2.9.9",
+      "purl": "pkg:pypi/psycopg2-binary@2.9.9"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pymongo@4.7.2",
+      "name": "pymongo",
+      "version": "4.7.2",
+      "purl": "pkg:pypi/pymongo@4.7.2"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/httpx@0.27.0",
+      "name": "httpx",
+      "version": "0.27.0",
+      "purl": "pkg:pypi/httpx@0.27.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/aiohttp@3.9.5",
+      "name": "aiohttp",
+      "version": "3.9.5",
+      "purl": "pkg:pypi/aiohttp@3.9.5"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pyyaml@6.0.1",
+      "name": "pyyaml",
+      "version": "6.0.1",
+      "purl": "pkg:pypi/pyyaml@6.0.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/python-dateutil@2.9.0.post0",
+      "name": "python-dateutil",
+      "version": "2.9.0.post0",
+      "purl": "pkg:pypi/python-dateutil@2.9.0.post0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/pytz@2024.1",
+      "name": "pytz",
+      "version": "2024.1",
+      "purl": "pkg:pypi/pytz@2024.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/six@1.16.0",
+      "name": "six",
+      "version": "1.16.0",
+      "purl": "pkg:pypi/six@1.16.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/certifi@2024.2.2",
+      "name": "certifi",
+      "version": "2024.2.2",
+      "purl": "pkg:pypi/certifi@2024.2.2"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/urllib3@2.2.1",
+      "name": "urllib3",
+      "version": "2.2.1",
+      "purl": "pkg:pypi/urllib3@2.2.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/idna@3.7",
+      "name": "idna",
+      "version": "3.7",
+      "purl": "pkg:pypi/idna@3.7"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/charset-normalizer@3.3.2",
+      "name": "charset-normalizer",
+      "version": "3.3.2",
+      "purl": "pkg:pypi/charset-normalizer@3.3.2"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/attrs@23.2.0",
+      "name": "attrs",
+      "version": "23.2.0",
+      "purl": "pkg:pypi/attrs@23.2.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:pypi/packaging@24.0",
+      "name": "packaging",
+      "version": "24.0",
+      "purl": "pkg:pypi/packaging@24.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Newtonsoft.Json@13.0.3",
+      "name": "Newtonsoft.Json",
+      "version": "13.0.3",
+      "purl": "pkg:nuget/Newtonsoft.Json@13.0.3"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Serilog@3.1.1",
+      "name": "Serilog",
+      "version": "3.1.1",
+      "purl": "pkg:nuget/Serilog@3.1.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Serilog.Sinks.Console@5.0.1",
+      "name": "Serilog.Sinks.Console",
+      "version": "5.0.1",
+      "purl": "pkg:nuget/Serilog.Sinks.Console@5.0.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/AutoMapper@13.0.1",
+      "name": "AutoMapper",
+      "version": "13.0.1",
+      "purl": "pkg:nuget/AutoMapper@13.0.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/FluentValidation@11.9.1",
+      "name": "FluentValidation",
+      "version": "11.9.1",
+      "purl": "pkg:nuget/FluentValidation@11.9.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/MediatR@12.4.0",
+      "name": "MediatR",
+      "version": "12.4.0",
+      "purl": "pkg:nuget/MediatR@12.4.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Polly@8.4.0",
+      "name": "Polly",
+      "version": "8.4.0",
+      "purl": "pkg:nuget/Polly@8.4.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Dapper@2.1.35",
+      "name": "Dapper",
+      "version": "2.1.35",
+      "purl": "pkg:nuget/Dapper@2.1.35"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.5",
+      "name": "Microsoft.EntityFrameworkCore",
+      "version": "8.0.5",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore@8.0.5"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.5",
+      "name": "Microsoft.EntityFrameworkCore.SqlServer",
+      "version": "8.0.5",
+      "purl": "pkg:nuget/Microsoft.EntityFrameworkCore.SqlServer@8.0.5"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0",
+      "name": "Microsoft.Extensions.DependencyInjection",
+      "version": "8.0.0",
+      "purl": "pkg:nuget/Microsoft.Extensions.DependencyInjection@8.0.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Logging@8.0.0",
+      "name": "Microsoft.Extensions.Logging",
+      "version": "8.0.0",
+      "purl": "pkg:nuget/Microsoft.Extensions.Logging@8.0.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Microsoft.Extensions.Configuration@8.0.0",
+      "name": "Microsoft.Extensions.Configuration",
+      "version": "8.0.0",
+      "purl": "pkg:nuget/Microsoft.Extensions.Configuration@8.0.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Swashbuckle.AspNetCore@6.6.2",
+      "name": "Swashbuckle.AspNetCore",
+      "version": "6.6.2",
+      "purl": "pkg:nuget/Swashbuckle.AspNetCore@6.6.2"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/xunit@2.8.1",
+      "name": "xunit",
+      "version": "2.8.1",
+      "purl": "pkg:nuget/xunit@2.8.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/xunit.runner.visualstudio@2.8.1",
+      "name": "xunit.runner.visualstudio",
+      "version": "2.8.1",
+      "purl": "pkg:nuget/xunit.runner.visualstudio@2.8.1"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/Moq@4.20.70",
+      "name": "Moq",
+      "version": "4.20.70",
+      "purl": "pkg:nuget/Moq@4.20.70"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/FluentAssertions@6.12.0",
+      "name": "FluentAssertions",
+      "version": "6.12.0",
+      "purl": "pkg:nuget/FluentAssertions@6.12.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NLog@5.3.2",
+      "name": "NLog",
+      "version": "5.3.2",
+      "purl": "pkg:nuget/NLog@5.3.2"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/RestSharp@110.2.0",
+      "name": "RestSharp",
+      "version": "110.2.0",
+      "purl": "pkg:nuget/RestSharp@110.2.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/StackExchange.Redis@2.7.33",
+      "name": "StackExchange.Redis",
+      "version": "2.7.33",
+      "purl": "pkg:nuget/StackExchange.Redis@2.7.33"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/NUnit@4.1.0",
+      "name": "NUnit",
+      "version": "4.1.0",
+      "purl": "pkg:nuget/NUnit@4.1.0"
+    },
+    {
+      "type": "library",
+      "bom-ref": "pkg:nuget/BenchmarkDotNet@0.13.12",
+      "name": "BenchmarkDotNet",
+      "version": "0.13.12",
+      "purl": "pkg:nuget/BenchmarkDotNet@0.13.12"
+    }
+  ]
+}

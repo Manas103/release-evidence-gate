@@ -1,0 +1,39 @@
+name: gate
+
+on:
+  push:
+
+jobs:
+  release-evidence-gate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Restore and build the .NET solution
+        run: dotnet build -c Release
+
+      - name: Run GateCore unit tests (reference-oracle and invariant checks)
+        run: dotnet test src/GateCore.Tests/GateCore.Tests.csproj -c Release
+
+      - name: Run the requirements traceability gate (48 requirements)
+        run: dotnet run --project src/TraceabilityGate -c Release --
+
+      - name: Install Python tooling
+        run: pip install -r requirements-tools.txt
+
+      - name: Run Python unit tests (SBOM generator and vuln block)
+        run: pytest tests -q
+
+      - name: Generate CycloneDX SBOM (63 dependencies)
+        run: python tools/sbom_gen.py --python-manifest data/python-requirements.txt --dotnet-manifest data/dotnet-packages.csv --out docs/sbom_output.json
+
+      - name: Block merge on newly disclosed vulnerability
+        run: python tools/vuln_block.py --sbom docs/sbom_output.json --known-vulnerable data/known-vulnerable.json

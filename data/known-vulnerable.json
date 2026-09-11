@@ -1,0 +1,13 @@
+{
+  "description": "Fixture of newly disclosed vulnerable component@version pairs. Not a live feed; a small, controlled list the vuln_block step cross-references the generated SBOM against, so the block mechanism can be proven both ways (seeded hit and clean miss) on demand.",
+  "vulnerabilities": [
+    {
+      "name": "pyyaml",
+      "ecosystem": "pypi",
+      "version": "5.3.1",
+      "cve": "CVE-2020-14343",
+      "severity": "high",
+      "note": "Full-loader arbitrary code execution, fixed upstream in PyYAML 5.4. Used here as a representative newly disclosed vulnerability, not pulled from a live feed."
+    }
+  ]
+}

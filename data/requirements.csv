@@ -1,0 +1,49 @@
+id,description
+REQ-001,Card number must be exactly 16 digits
+REQ-002,Card expiry year must not be in the past relative to 2026
+REQ-003,CVV must be exactly 3 digits
+REQ-004,Payment method must be one of CreditCard PayPal GiftCard or Invoice
+REQ-005,Outstanding balance must not exceed credit limit for invoice payments
+REQ-006,Total amount must be positive
+REQ-007,Shipping street must not be empty
+REQ-008,Shipping city must not be empty
+REQ-009,Shipping ZIP must be 5 digits when shipping country is US
+REQ-010,Shipping state must be a 2-letter uppercase code when shipping country is US
+REQ-011,Shipping country must be a non-empty code of at most 3 characters
+REQ-012,International shipments over 500 dollars must carry insurance
+REQ-013,Discount percent must be between 0 and 75
+REQ-014,A discount code must be present when discount percent is nonzero
+REQ-015,Promo stack count must not exceed the max promo stack
+REQ-016,Total amount must equal item count times unit price minus discount
+REQ-017,Tax amount must be non-negative
+REQ-018,Tax-exempt orders must supply an exemption id
+REQ-019,Item count must be at least 1
+REQ-020,Inventory available must be non-negative
+REQ-021,Non-backorder orders must have sufficient inventory for the item count
+REQ-022,Backorder orders must be flagged with warehouse zone BACKORDER
+REQ-023,Hazardous items must not use express shipping
+REQ-024,Warehouse zone must be one of the known zone codes
+REQ-025,Fraud-flagged orders must not be marked priority
+REQ-026,Customer email must contain an at sign and a dot
+REQ-027,Hazardous item orders require a customer age of at least 21
+REQ-028,Refund amount must not exceed the total amount
+REQ-029,Refund requested flag must be set when refund amount is nonzero
+REQ-030,Gift orders must include a gift message of 1 to 200 characters
+REQ-031,B2B orders must include a purchase order number
+REQ-032,Currency must be one of USD EUR GBP or CAD
+REQ-033,Tax amount must not exceed 30 percent of the total amount
+REQ-034,International orders must declare a country code of 2 to 3 characters
+REQ-035,Signature-required shipments must have an SLA of at least 24 hours
+REQ-036,Priority orders must have an SLA of at most 48 hours
+REQ-037,Subscription orders must specify a positive interval in days
+REQ-038,Loyalty tier must be one of None Silver Gold or Platinum
+REQ-039,Platinum-tier customers must not be fraud-flagged
+REQ-040,Subscription interval when set must be at least 7 days
+REQ-041,Max promo stack must be at least 1
+REQ-042,Loyalty tier None must not receive a discount above 10 percent
+REQ-043,Shipping method must be one of Standard Express or Overnight
+REQ-044,Express shipping flag must match an Express or Overnight shipping method
+REQ-045,Carrier id must be one of UPS FedEx USPS or DHL
+REQ-046,Tracking number must be set once the label is printed
+REQ-047,Weight must be positive
+REQ-048,Parcels over 30kg must not use Standard shipping

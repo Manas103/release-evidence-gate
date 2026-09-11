@@ -1,0 +1,76 @@
+﻿== release-evidence-gate: traceability gate ==
+requirements manifest : C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\data\requirements.csv
+test project          : C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\UnderTest.Tests\UnderTest.Tests.csproj
+test assembly         : C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\UnderTest.Tests\bin\Release\net8.0\UnderTest.Tests.dll
+
+-- running dotnet test --
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  UnderTest -> C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\UnderTest\bin\Release\net8.0\UnderTest.dll
+  TraceContracts -> C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\TraceContracts\bin\Release\net8.0\TraceContracts.dll
+  UnderTest.Tests -> C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\UnderTest.Tests\bin\Release\net8.0\UnderTest.Tests.dll
+Test run for C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\UnderTest.Tests\bin\Release\net8.0\UnderTest.Tests.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+Results File: C:\Users\Manas\AppData\Local\Temp\reg-trx-hpptilhm.tly\trace_results.trx
+
+Passed!  - Failed:     0, Passed:    48, Skipped:     0, Total:    48, Duration: 17 ms - UnderTest.Tests.dll (net8.0)
+dotnet test exit code: 0
+
+parsed 48 test results from trx
+found 48 distinct traced test methods across 48 requirements via reflection
+
+-- per-requirement coverage --
+[COVERED ] REQ-001 (Card number must be exactly 16 digits) via UnderTest.Tests.RuleTests.Req001_CardNumberMustBeSixteenDigits
+[COVERED ] REQ-002 (Card expiry year must not be in the past relative to 2026) via UnderTest.Tests.RuleTests.Req002_CardExpiryYearMustNotBePast
+[COVERED ] REQ-003 (CVV must be exactly 3 digits) via UnderTest.Tests.RuleTests.Req003_CvvMustBeThreeDigits
+[COVERED ] REQ-004 (Payment method must be one of CreditCard PayPal GiftCard or Invoice) via UnderTest.Tests.RuleTests.Req004_PaymentMethodMustBeSupported
+[COVERED ] REQ-005 (Outstanding balance must not exceed credit limit for invoice payments) via UnderTest.Tests.RuleTests.Req005_OutstandingBalanceWithinCreditLimitForInvoice
+[COVERED ] REQ-006 (Total amount must be positive) via UnderTest.Tests.RuleTests.Req006_TotalAmountMustBePositive
+[COVERED ] REQ-007 (Shipping street must not be empty) via UnderTest.Tests.RuleTests.Req007_ShippingStreetMustNotBeEmpty
+[COVERED ] REQ-008 (Shipping city must not be empty) via UnderTest.Tests.RuleTests.Req008_ShippingCityMustNotBeEmpty
+[COVERED ] REQ-009 (Shipping ZIP must be 5 digits when shipping country is US) via UnderTest.Tests.RuleTests.Req009_ShippingZipMustBeFiveDigitsForUs
+[COVERED ] REQ-010 (Shipping state must be a 2-letter uppercase code when shipping country is US) via UnderTest.Tests.RuleTests.Req010_ShippingStateMustBeTwoLetterCodeForUs
+[COVERED ] REQ-011 (Shipping country must be a non-empty code of at most 3 characters) via UnderTest.Tests.RuleTests.Req011_ShippingCountryMustBeNonEmptyShortCode
+[COVERED ] REQ-012 (International shipments over 500 dollars must carry insurance) via UnderTest.Tests.RuleTests.Req012_InternationalHighValueOrdersNeedInsurance
+[COVERED ] REQ-013 (Discount percent must be between 0 and 75) via UnderTest.Tests.RuleTests.Req013_DiscountPercentMustBeInRange
+[COVERED ] REQ-014 (A discount code must be present when discount percent is nonzero) via UnderTest.Tests.RuleTests.Req014_DiscountCodeRequiredWhenDiscounted
+[COVERED ] REQ-015 (Promo stack count must not exceed the max promo stack) via UnderTest.Tests.RuleTests.Req015_PromoStackWithinMax
+[COVERED ] REQ-016 (Total amount must equal item count times unit price minus discount) via UnderTest.Tests.RuleTests.Req016_TotalAmountMatchesPriceArithmetic
+[COVERED ] REQ-017 (Tax amount must be non-negative) via UnderTest.Tests.RuleTests.Req017_TaxAmountMustBeNonNegative
+[COVERED ] REQ-018 (Tax-exempt orders must supply an exemption id) via UnderTest.Tests.RuleTests.Req018_TaxExemptOrdersNeedExemptionId
+[COVERED ] REQ-019 (Item count must be at least 1) via UnderTest.Tests.RuleTests.Req019_ItemCountMustBeAtLeastOne
+[COVERED ] REQ-020 (Inventory available must be non-negative) via UnderTest.Tests.RuleTests.Req020_InventoryAvailableMustBeNonNegative
+[COVERED ] REQ-021 (Non-backorder orders must have sufficient inventory for the item count) via UnderTest.Tests.RuleTests.Req021_NonBackorderNeedsSufficientInventory
+[COVERED ] REQ-022 (Backorder orders must be flagged with warehouse zone BACKORDER) via UnderTest.Tests.RuleTests.Req022_BackorderNeedsBackorderZone
+[COVERED ] REQ-023 (Hazardous items must not use express shipping) via UnderTest.Tests.RuleTests.Req023_HazardousMustNotUseExpressShipping
+[COVERED ] REQ-024 (Warehouse zone must be one of the known zone codes) via UnderTest.Tests.RuleTests.Req024_WarehouseZoneMustBeKnown
+[COVERED ] REQ-025 (Fraud-flagged orders must not be marked priority) via UnderTest.Tests.RuleTests.Req025_FraudFlaggedMustNotBePriority
+[COVERED ] REQ-026 (Customer email must contain an at sign and a dot) via UnderTest.Tests.RuleTests.Req026_CustomerEmailMustLookValid
+[COVERED ] REQ-027 (Hazardous item orders require a customer age of at least 21) via UnderTest.Tests.RuleTests.Req027_HazardousOrdersNeedAdultCustomer
+[COVERED ] REQ-028 (Refund amount must not exceed the total amount) via UnderTest.Tests.RuleTests.Req028_RefundAmountMustNotExceedTotal
+[COVERED ] REQ-029 (Refund requested flag must be set when refund amount is nonzero) via UnderTest.Tests.RuleTests.Req029_RefundRequestedFlagMustMatchAmount
+[COVERED ] REQ-030 (Gift orders must include a gift message of 1 to 200 characters) via UnderTest.Tests.RuleTests.Req030_GiftOrdersNeedGiftMessage
+[COVERED ] REQ-031 (B2B orders must include a purchase order number) via UnderTest.Tests.RuleTests.Req031_B2BOrdersNeedPurchaseOrderNumber
+[COVERED ] REQ-032 (Currency must be one of USD EUR GBP or CAD) via UnderTest.Tests.RuleTests.Req032_CurrencyMustBeSupported
+[COVERED ] REQ-033 (Tax amount must not exceed 30 percent of the total amount) via UnderTest.Tests.RuleTests.Req033_TaxAmountWithinThirtyPercentOfTotal
+[COVERED ] REQ-034 (International orders must declare a country code of 2 to 3 characters) via UnderTest.Tests.RuleTests.Req034_InternationalOrdersNeedShortCountryCode
+[COVERED ] REQ-035 (Signature-required shipments must have an SLA of at least 24 hours) via UnderTest.Tests.RuleTests.Req035_SignatureRequiredNeedsLongerSla
+[COVERED ] REQ-036 (Priority orders must have an SLA of at most 48 hours) via UnderTest.Tests.RuleTests.Req036_PriorityOrdersNeedShorterSla
+[COVERED ] REQ-037 (Subscription orders must specify a positive interval in days) via UnderTest.Tests.RuleTests.Req037_SubscriptionNeedsPositiveInterval
+[COVERED ] REQ-038 (Loyalty tier must be one of None Silver Gold or Platinum) via UnderTest.Tests.RuleTests.Req038_LoyaltyTierMustBeKnown
+[COVERED ] REQ-039 (Platinum-tier customers must not be fraud-flagged) via UnderTest.Tests.RuleTests.Req039_PlatinumTierMustNotBeFraudFlagged
+[COVERED ] REQ-040 (Subscription interval when set must be at least 7 days) via UnderTest.Tests.RuleTests.Req040_SubscriptionIntervalMustBeAtLeastSevenDays
+[COVERED ] REQ-041 (Max promo stack must be at least 1) via UnderTest.Tests.RuleTests.Req041_MaxPromoStackMustBeAtLeastOne
+[COVERED ] REQ-042 (Loyalty tier None must not receive a discount above 10 percent) via UnderTest.Tests.RuleTests.Req042_NoneTierCappedAtTenPercentDiscount
+[COVERED ] REQ-043 (Shipping method must be one of Standard Express or Overnight) via UnderTest.Tests.RuleTests.Req043_ShippingMethodMustBeSupported
+[COVERED ] REQ-044 (Express shipping flag must match an Express or Overnight shipping method) via UnderTest.Tests.RuleTests.Req044_ExpressFlagMustMatchShippingMethod
+[COVERED ] REQ-045 (Carrier id must be one of UPS FedEx USPS or DHL) via UnderTest.Tests.RuleTests.Req045_CarrierIdMustBeKnown
+[COVERED ] REQ-046 (Tracking number must be set once the label is printed) via UnderTest.Tests.RuleTests.Req046_TrackingNumberRequiredOnceLabelPrinted
+[COVERED ] REQ-047 (Weight must be positive) via UnderTest.Tests.RuleTests.Req047_WeightMustBePositive
+[COVERED ] REQ-048 (Parcels over 30kg must not use Standard shipping) via UnderTest.Tests.RuleTests.Req048_OverweightParcelsMustNotUseStandard
+
+SUMMARY: 48 requirements, 48 covered, 0 orphaned
+GATE RESULT: PASS

@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{87FF5A34-9240-40A5-8134-61780FDB654D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceContracts", "src\TraceContracts\TraceContracts.csproj", "{192FDD0A-194B-4919-BF2E-D9D09864409E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderTest", "src\UnderTest\UnderTest.csproj", "{7D4C76BE-1E3C-45EA-9ACC-F39D3D09AFD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnderTest.Tests", "src\UnderTest.Tests\UnderTest.Tests.csproj", "{D473ED49-7E61-4F2C-9AA7-85EB51BDD291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateCore", "src\GateCore\GateCore.csproj", "{AE14C2FD-A1D7-4F27-AEEC-79128CE1EBA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateCore.Tests", "src\GateCore.Tests\GateCore.Tests.csproj", "{EDA17F52-CEF7-4F25-BB52-F17641D59DE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceabilityGate", "src\TraceabilityGate\TraceabilityGate.csproj", "{B20DF2E2-2AE7-4D83-8043-96324E8439FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{192FDD0A-194B-4919-BF2E-D9D09864409E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{192FDD0A-194B-4919-BF2E-D9D09864409E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{192FDD0A-194B-4919-BF2E-D9D09864409E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{192FDD0A-194B-4919-BF2E-D9D09864409E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D4C76BE-1E3C-45EA-9ACC-F39D3D09AFD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D4C76BE-1E3C-45EA-9ACC-F39D3D09AFD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D4C76BE-1E3C-45EA-9ACC-F39D3D09AFD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D4C76BE-1E3C-45EA-9ACC-F39D3D09AFD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D473ED49-7E61-4F2C-9AA7-85EB51BDD291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D473ED49-7E61-4F2C-9AA7-85EB51BDD291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D473ED49-7E61-4F2C-9AA7-85EB51BDD291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D473ED49-7E61-4F2C-9AA7-85EB51BDD291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE14C2FD-A1D7-4F27-AEEC-79128CE1EBA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE14C2FD-A1D7-4F27-AEEC-79128CE1EBA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE14C2FD-A1D7-4F27-AEEC-79128CE1EBA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE14C2FD-A1D7-4F27-AEEC-79128CE1EBA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDA17F52-CEF7-4F25-BB52-F17641D59DE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA17F52-CEF7-4F25-BB52-F17641D59DE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA17F52-CEF7-4F25-BB52-F17641D59DE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA17F52-CEF7-4F25-BB52-F17641D59DE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B20DF2E2-2AE7-4D83-8043-96324E8439FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B20DF2E2-2AE7-4D83-8043-96324E8439FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B20DF2E2-2AE7-4D83-8043-96324E8439FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B20DF2E2-2AE7-4D83-8043-96324E8439FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{192FDD0A-194B-4919-BF2E-D9D09864409E} = {87FF5A34-9240-40A5-8134-61780FDB654D}
+		{7D4C76BE-1E3C-45EA-9ACC-F39D3D09AFD7} = {87FF5A34-9240-40A5-8134-61780FDB654D}
+		{D473ED49-7E61-4F2C-9AA7-85EB51BDD291} = {87FF5A34-9240-40A5-8134-61780FDB654D}
+		{AE14C2FD-A1D7-4F27-AEEC-79128CE1EBA7} = {87FF5A34-9240-40A5-8134-61780FDB654D}
+		{EDA17F52-CEF7-4F25-BB52-F17641D59DE5} = {87FF5A34-9240-40A5-8134-61780FDB654D}
+		{B20DF2E2-2AE7-4D83-8043-96324E8439FE} = {87FF5A34-9240-40A5-8134-61780FDB654D}
+	EndGlobalSection
+EndGlobal

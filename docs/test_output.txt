@@ -1,0 +1,21 @@
+﻿  Determining projects to restore...
+  All projects are up-to-date for restore.
+  GateCore -> C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\GateCore\bin\Release\net8.0\GateCore.dll
+  UnderTest -> C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\UnderTest\bin\Release\net8.0\UnderTest.dll
+  TraceContracts -> C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\TraceContracts\bin\Release\net8.0\TraceContracts.dll
+  GateCore.Tests -> C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\GateCore.Tests\bin\Release\net8.0\GateCore.Tests.dll
+Test run for C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\GateCore.Tests\bin\Release\net8.0\GateCore.Tests.dll (.NETCoreApp,Version=v8.0)
+  UnderTest.Tests -> C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\UnderTest.Tests\bin\Release\net8.0\UnderTest.Tests.dll
+Test run for C:\Users\Manas\Downloads\Total Job Application process flow\projects\release-evidence-gate\src\UnderTest.Tests\bin\Release\net8.0\UnderTest.Tests.dll (.NETCoreApp,Version=v8.0)
+VSTest version 17.11.1 (x64)
+
+VSTest version 17.11.1 (x64)
+
+Starting test execution, please wait...
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.A total of 1 test files matched the specified pattern.
+
+
+Passed!  - Failed:     0, Passed:    48, Skipped:     0, Total:    48, Duration: 20 ms - UnderTest.Tests.dll (net8.0)
+
+Passed!  - Failed:     0, Passed:     7, Skipped:     0, Total:     7, Duration: 21 ms - GateCore.Tests.dll (net8.0)

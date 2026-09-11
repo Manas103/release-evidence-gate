@@ -1,0 +1,3 @@
+checked 63 SBOM components against 1 known-vulnerable fixture entries
+no known-vulnerable components found
+MERGE BLOCK RESULT: PASS
