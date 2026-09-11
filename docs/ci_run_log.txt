@@ -1,0 +1,474 @@
+release-evidence-gate	Set up job	﻿2026-09-11T18:55:18.9539017Z Current runner version: '2.337.0'
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9581163Z ##[group]Runner Image Provisioner
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9582450Z Hosted Compute Agent
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9583520Z Version: 20260828.587
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9584494Z Commit: abac92662cab4cc7352de4f9f9d2e2419aad9c29
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9585630Z Build Date: 2026-08-28T16:44:25Z
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9586906Z Worker ID: {43d8639c-89b6-405a-a6c5-7628e504fca7}
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9588068Z Azure Region: northcentralus
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9589079Z ##[endgroup]
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9591128Z ##[group]Operating System
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9591812Z Ubuntu
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9592519Z 24.04.5
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9593072Z LTS
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9593656Z ##[endgroup]
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9594271Z ##[group]Runner Image
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9594921Z Image: ubuntu-24.04
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9595619Z Version: 20260907.300.1
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9596742Z Included Software: https://github.com/actions/runner-images/blob/ubuntu24/20260907.300/images/ubuntu/Ubuntu2404-Readme.md
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9598595Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu24%2F20260907.300
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9599595Z ##[endgroup]
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9601613Z ##[group]GITHUB_TOKEN Permissions
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9603934Z Contents: read
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9604683Z Metadata: read
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9605288Z Packages: read
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9605988Z ##[endgroup]
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9608187Z Secret source: Actions
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9609129Z Cache mode: write
+release-evidence-gate	Set up job	2026-09-11T18:55:18.9610526Z Prepare workflow directory
+release-evidence-gate	Set up job	2026-09-11T18:55:19.0021738Z Prepare all required actions
+release-evidence-gate	Set up job	2026-09-11T18:55:19.0090211Z Getting action download info
+release-evidence-gate	Set up job	2026-09-11T18:55:19.2511395Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+release-evidence-gate	Set up job	2026-09-11T18:55:19.3441392Z Download action repository 'actions/setup-dotnet@v4' (SHA:67a3573c9a986a3f9c594539f4ab511d57bb3ce9)
+release-evidence-gate	Set up job	2026-09-11T18:55:19.7586931Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+release-evidence-gate	Set up job	2026-09-11T18:55:19.9455486Z Complete job name: release-evidence-gate
+release-evidence-gate	Run actions/checkout@v4	﻿2026-09-11T18:55:20.0219638Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0228701Z ##[group]Run actions/checkout@v4
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0229411Z with:
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0229887Z   repository: Manas103/release-evidence-gate
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0234350Z   token: ***
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0234808Z   ssh-strict: true
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0235256Z   ssh-user: git
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0235713Z   persist-credentials: true
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0236200Z   clean: true
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0236650Z   sparse-checkout-cone-mode: true
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0237169Z   fetch-depth: 1
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0237608Z   fetch-tags: false
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0238083Z   show-progress: true
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0238537Z   lfs: false
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0238942Z   submodules: false
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0239477Z   set-safe-directory: true
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0239988Z   allow-unsafe-pr-checkout: false
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.0240813Z ##[endgroup]
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1279827Z Syncing repository: Manas103/release-evidence-gate
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1282913Z ##[group]Getting Git version info
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1284264Z Working directory is '/home/runner/work/release-evidence-gate/release-evidence-gate'
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1286254Z [command]/usr/bin/git version
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1342784Z git version 2.55.0
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1363070Z ##[endgroup]
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1377517Z Temporarily overriding HOME='/home/runner/work/_temp/07da6bec-074c-4b9d-8184-75609e20fee4' before making global git config changes
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1379862Z Adding repository directory to the temporary git global config as a safe directory
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1383371Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/release-evidence-gate/release-evidence-gate
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1430947Z Deleting the contents of '/home/runner/work/release-evidence-gate/release-evidence-gate'
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1435363Z ##[group]Initializing the repository
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1439702Z [command]/usr/bin/git init /home/runner/work/release-evidence-gate/release-evidence-gate
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1518630Z hint: Using 'master' as the name for the initial branch. This default branch name
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1520637Z hint: will change to "main" in Git 3.0. To configure the initial branch name
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1522198Z hint: to use in all of your new repositories, which will suppress this warning,
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1523584Z hint: call:
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1524227Z hint:
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1525025Z hint: 	git config --global init.defaultBranch <name>
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1526050Z hint:
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1526984Z hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1528487Z hint: 'development'. The just-created branch can be renamed via this command:
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1529670Z hint:
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1530812Z hint: 	git branch -m <name>
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1531570Z hint:
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1532596Z hint: Disable this message with "git config set advice.defaultBranchName false"
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1534369Z Initialized empty Git repository in /home/runner/work/release-evidence-gate/release-evidence-gate/.git/
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1537367Z [command]/usr/bin/git remote add origin https://github.com/Manas103/release-evidence-gate
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1582959Z ##[endgroup]
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1584289Z ##[group]Disabling automatic garbage collection
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1588272Z [command]/usr/bin/git config --local gc.auto 0
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1623454Z ##[endgroup]
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1624829Z ##[group]Setting up auth
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1631836Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.1666988Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.2021870Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.2052121Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.2318690Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.2359777Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.2603940Z [command]/usr/bin/git config --local http.https://github.com/.extraheader AUTHORIZATION: basic ***
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.2645262Z ##[endgroup]
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.2646596Z ##[group]Fetching the repository
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.2656497Z [command]/usr/bin/git -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +79c4f11929580d254e3cb3fd19a060e768d31faa:refs/remotes/origin/master
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.5932392Z From https://github.com/Manas103/release-evidence-gate
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.5934591Z  * [new ref]         79c4f11929580d254e3cb3fd19a060e768d31faa -> origin/master
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.5944081Z ##[endgroup]
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.5945434Z ##[group]Determining the checkout info
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.5954871Z ##[endgroup]
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.5955813Z [command]/usr/bin/git sparse-checkout disable
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.5999013Z [command]/usr/bin/git config --local --unset-all extensions.worktreeConfig
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.6033530Z ##[group]Checking out the ref
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.6037769Z [command]/usr/bin/git checkout --progress --force -B master refs/remotes/origin/master
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.6122511Z Reset branch 'master'
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.6127542Z branch 'master' set up to track 'origin/master'.
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.6133456Z ##[endgroup]
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.6176545Z [command]/usr/bin/git log -1 --format=%H
+release-evidence-gate	Run actions/checkout@v4	2026-09-11T18:55:20.6206560Z 79c4f11929580d254e3cb3fd19a060e768d31faa
+release-evidence-gate	Run actions/setup-dotnet@v4	﻿2026-09-11T18:55:20.6537946Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:20.6544002Z ##[group]Run actions/setup-dotnet@v4
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:20.6545117Z with:
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:20.6545924Z   dotnet-version: 8.0.x
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:20.6546871Z   cache: false
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:20.6547705Z ##[endgroup]
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:20.8106040Z (node:2255) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:20.8109513Z (Use `node --trace-deprecation ...` to show where the warning was created)
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:20.8141163Z [command]/home/runner/work/_actions/actions/setup-dotnet/v4/externals/install-dotnet.sh --skip-non-versioned-files --runtime dotnet --channel LTS
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:21.2057550Z dotnet-install: Attempting to download using aka.ms link https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.12/dotnet-runtime-10.0.12-linux-x64.tar.gz
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:21.4383121Z dotnet-install: Remote file https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.12/dotnet-runtime-10.0.12-linux-x64.tar.gz size is 36638192 bytes.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:21.4387429Z dotnet-install: Extracting archive from https://builds.dotnet.microsoft.com/dotnet/Runtime/10.0.12/dotnet-runtime-10.0.12-linux-x64.tar.gz
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:22.1605822Z dotnet-install: Downloaded file size is 36638192 bytes.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:22.1607249Z dotnet-install: The remote and local file sizes are equal.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:22.1931395Z dotnet-install: Installed version is 10.0.12
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:22.1996500Z dotnet-install: Adding to current process PATH: `/usr/share/dotnet`. Note: This change will be visible only when sourcing script.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:22.1998053Z dotnet-install: Note that the script does not resolve dependencies during installation.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:22.2002234Z dotnet-install: To check the list of dependencies, go to https://learn.microsoft.com/dotnet/core/install, select your operating system and check the "Dependencies" section.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:22.2003725Z dotnet-install: Installation finished successfully.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:22.2024872Z [command]/home/runner/work/_actions/actions/setup-dotnet/v4/externals/install-dotnet.sh --skip-non-versioned-files --channel 8.0
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:22.4364804Z dotnet-install: Attempting to download using aka.ms link https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.425/dotnet-sdk-8.0.425-linux-x64.tar.gz
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:23.1783766Z dotnet-install: Remote file https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.425/dotnet-sdk-8.0.425-linux-x64.tar.gz size is 216833108 bytes.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:23.1787546Z dotnet-install: Extracting archive from https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.425/dotnet-sdk-8.0.425-linux-x64.tar.gz
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:28.0376168Z dotnet-install: Downloaded file size is 216833108 bytes.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:28.0377058Z dotnet-install: The remote and local file sizes are equal.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:28.3173333Z dotnet-install: Installed version is 8.0.425
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:28.3241366Z dotnet-install: Adding to current process PATH: `/usr/share/dotnet`. Note: This change will be visible only when sourcing script.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:28.3242730Z dotnet-install: Note that the script does not resolve dependencies during installation.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:28.3244496Z dotnet-install: To check the list of dependencies, go to https://learn.microsoft.com/dotnet/core/install, select your operating system and check the "Dependencies" section.
+release-evidence-gate	Run actions/setup-dotnet@v4	2026-09-11T18:55:28.3246156Z dotnet-install: Installation finished successfully.
+release-evidence-gate	Run actions/setup-python@v5	﻿2026-09-11T18:55:28.3478556Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3480019Z ##[group]Run actions/setup-python@v5
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3480458Z with:
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3480673Z   python-version: 3.12
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3480905Z   check-latest: false
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3483595Z   token: ***
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3483819Z   update-environment: true
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3484085Z   allow-prereleases: false
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3484321Z   freethreaded: false
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3484537Z env:
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3484746Z   DOTNET_ROOT: /usr/share/dotnet
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.3484999Z ##[endgroup]
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.4862657Z ##[group]Installed versions
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.4942087Z (node:2723) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.4942994Z (Use `node --trace-deprecation ...` to show where the warning was created)
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.4943747Z Successfully set up CPython (3.12.14)
+release-evidence-gate	Run actions/setup-python@v5	2026-09-11T18:55:28.4944460Z ##[endgroup]
+release-evidence-gate	Restore and build the .NET solution	﻿2026-09-11T18:55:28.5096747Z ##[group]Run dotnet build -c Release
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5097189Z ^[[36;1mdotnet build -c Release^[[0m
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5148888Z shell: /usr/bin/bash -e {0}
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5149253Z env:
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5149480Z   DOTNET_ROOT: /usr/share/dotnet
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5149821Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5150556Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5151108Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5151492Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5151880Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5152286Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:28.5152623Z ##[endgroup]
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:32.4514041Z   Determining projects to restore...
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:33.2817555Z   Restored /home/runner/work/release-evidence-gate/release-evidence-gate/src/GateCore/GateCore.csproj (in 117 ms).
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:33.2819329Z   Restored /home/runner/work/release-evidence-gate/release-evidence-gate/src/UnderTest/UnderTest.csproj (in 117 ms).
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:33.2821136Z   Restored /home/runner/work/release-evidence-gate/release-evidence-gate/src/TraceabilityGate/TraceabilityGate.csproj (in 131 ms).
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:33.2901890Z   Restored /home/runner/work/release-evidence-gate/release-evidence-gate/src/TraceContracts/TraceContracts.csproj (in 1 ms).
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:35.8792983Z   Restored /home/runner/work/release-evidence-gate/release-evidence-gate/src/UnderTest.Tests/UnderTest.Tests.csproj (in 2.57 sec).
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:35.8794586Z   Restored /home/runner/work/release-evidence-gate/release-evidence-gate/src/GateCore.Tests/GateCore.Tests.csproj (in 2.71 sec).
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:42.8252740Z   GateCore -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/GateCore/bin/Release/net8.0/GateCore.dll
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:42.8334107Z   UnderTest -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/UnderTest/bin/Release/net8.0/UnderTest.dll
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:42.8372877Z   TraceContracts -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/TraceContracts/bin/Release/net8.0/TraceContracts.dll
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:43.7362231Z   GateCore.Tests -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/GateCore.Tests/bin/Release/net8.0/GateCore.Tests.dll
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:44.2092050Z   TraceabilityGate -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/TraceabilityGate/bin/Release/net8.0/TraceabilityGate.dll
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:44.5178866Z   UnderTest.Tests -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/UnderTest.Tests/bin/Release/net8.0/UnderTest.Tests.dll
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:44.5605459Z 
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:44.5614701Z Build succeeded.
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:44.5615711Z     0 Warning(s)
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:44.5616085Z     0 Error(s)
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:44.5620801Z 
+release-evidence-gate	Restore and build the .NET solution	2026-09-11T18:55:44.5621314Z Time Elapsed 00:00:13.52
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	﻿2026-09-11T18:55:44.5964303Z ##[group]Run dotnet test src/GateCore.Tests/GateCore.Tests.csproj -c Release
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.5964940Z ^[[36;1mdotnet test src/GateCore.Tests/GateCore.Tests.csproj -c Release^[[0m
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6007178Z shell: /usr/bin/bash -e {0}
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6007446Z env:
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6007672Z   DOTNET_ROOT: /usr/share/dotnet
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6008006Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6008453Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6008874Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6009257Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6009659Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6010036Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:44.6010580Z ##[endgroup]
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:45.5521688Z   Determining projects to restore...
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:46.1721005Z   All projects are up-to-date for restore.
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:46.6999129Z   GateCore -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/GateCore/bin/Release/net8.0/GateCore.dll
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:46.8738634Z   GateCore.Tests -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/GateCore.Tests/bin/Release/net8.0/GateCore.Tests.dll
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:46.8909470Z Test run for /home/runner/work/release-evidence-gate/release-evidence-gate/src/GateCore.Tests/bin/Release/net8.0/GateCore.Tests.dll (.NETCoreApp,Version=v8.0)
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:47.9801287Z A total of 1 test files matched the specified pattern.
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:48.6692017Z 
+release-evidence-gate	Run GateCore unit tests (reference-oracle and invariant checks)	2026-09-11T18:55:48.6762150Z Passed!  - Failed:     0, Passed:     7, Skipped:     0, Total:     7, Duration: 45 ms - GateCore.Tests.dll (net8.0)
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	﻿2026-09-11T18:55:48.7215222Z ##[group]Run dotnet run --project src/TraceabilityGate -c Release --
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7215758Z ^[[36;1mdotnet run --project src/TraceabilityGate -c Release --^[[0m
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7259353Z shell: /usr/bin/bash -e {0}
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7259639Z env:
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7259864Z   DOTNET_ROOT: /usr/share/dotnet
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7260207Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7260947Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7261423Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7261809Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7262191Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7262571Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:48.7262901Z ##[endgroup]
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:50.9141810Z == release-evidence-gate: traceability gate ==
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:50.9142873Z requirements manifest : /home/runner/work/release-evidence-gate/release-evidence-gate/data/requirements.csv
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:50.9153875Z test project          : /home/runner/work/release-evidence-gate/release-evidence-gate/src/UnderTest.Tests/UnderTest.Tests.csproj
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:50.9156042Z test assembly         : /home/runner/work/release-evidence-gate/release-evidence-gate/src/UnderTest.Tests/bin/Release/net8.0/UnderTest.Tests.dll
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:50.9157147Z 
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:50.9157479Z -- running dotnet test --
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:51.6207028Z   Determining projects to restore...
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:52.5096123Z   All projects are up-to-date for restore.
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:53.0557698Z   TraceContracts -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/TraceContracts/bin/Release/net8.0/TraceContracts.dll
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:53.1043203Z   UnderTest -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/UnderTest/bin/Release/net8.0/UnderTest.dll
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:53.2386578Z   UnderTest.Tests -> /home/runner/work/release-evidence-gate/release-evidence-gate/src/UnderTest.Tests/bin/Release/net8.0/UnderTest.Tests.dll
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:53.2679449Z Test run for /home/runner/work/release-evidence-gate/release-evidence-gate/src/UnderTest.Tests/bin/Release/net8.0/UnderTest.Tests.dll (.NETCoreApp,Version=v8.0)
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:53.4403071Z A total of 1 test files matched the specified pattern.
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.1744180Z Results File: /tmp/reg-trx-ndN9lr/trace_results.trx
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.1765568Z 
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.1791979Z Passed!  - Failed:     0, Passed:    48, Skipped:     0, Total:    48, Duration: 41 ms - UnderTest.Tests.dll (net8.0)
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2368854Z dotnet test exit code: 0
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2369145Z 
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2447531Z parsed 48 test results from trx
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2501751Z found 48 distinct traced test methods across 48 requirements via reflection
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2502158Z 
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2562028Z -- per-requirement coverage --
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2566293Z [COVERED ] REQ-001 (Card number must be exactly 16 digits) via UnderTest.Tests.RuleTests.Req001_CardNumberMustBeSixteenDigits
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2567954Z [COVERED ] REQ-002 (Card expiry year must not be in the past relative to 2026) via UnderTest.Tests.RuleTests.Req002_CardExpiryYearMustNotBePast
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2569416Z [COVERED ] REQ-003 (CVV must be exactly 3 digits) via UnderTest.Tests.RuleTests.Req003_CvvMustBeThreeDigits
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2571125Z [COVERED ] REQ-004 (Payment method must be one of CreditCard PayPal GiftCard or Invoice) via UnderTest.Tests.RuleTests.Req004_PaymentMethodMustBeSupported
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2572488Z [COVERED ] REQ-005 (Outstanding balance must not exceed credit limit for invoice payments) via UnderTest.Tests.RuleTests.Req005_OutstandingBalanceWithinCreditLimitForInvoice
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2573949Z [COVERED ] REQ-006 (Total amount must be positive) via UnderTest.Tests.RuleTests.Req006_TotalAmountMustBePositive
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2574783Z [COVERED ] REQ-007 (Shipping street must not be empty) via UnderTest.Tests.RuleTests.Req007_ShippingStreetMustNotBeEmpty
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2575966Z [COVERED ] REQ-008 (Shipping city must not be empty) via UnderTest.Tests.RuleTests.Req008_ShippingCityMustNotBeEmpty
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2576858Z [COVERED ] REQ-009 (Shipping ZIP must be 5 digits when shipping country is US) via UnderTest.Tests.RuleTests.Req009_ShippingZipMustBeFiveDigitsForUs
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2577969Z [COVERED ] REQ-010 (Shipping state must be a 2-letter uppercase code when shipping country is US) via UnderTest.Tests.RuleTests.Req010_ShippingStateMustBeTwoLetterCodeForUs
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2579101Z [COVERED ] REQ-011 (Shipping country must be a non-empty code of at most 3 characters) via UnderTest.Tests.RuleTests.Req011_ShippingCountryMustBeNonEmptyShortCode
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2580230Z [COVERED ] REQ-012 (International shipments over 500 dollars must carry insurance) via UnderTest.Tests.RuleTests.Req012_InternationalHighValueOrdersNeedInsurance
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2581933Z [COVERED ] REQ-013 (Discount percent must be between 0 and 75) via UnderTest.Tests.RuleTests.Req013_DiscountPercentMustBeInRange
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2582935Z [COVERED ] REQ-014 (A discount code must be present when discount percent is nonzero) via UnderTest.Tests.RuleTests.Req014_DiscountCodeRequiredWhenDiscounted
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2583980Z [COVERED ] REQ-015 (Promo stack count must not exceed the max promo stack) via UnderTest.Tests.RuleTests.Req015_PromoStackWithinMax
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2584972Z [COVERED ] REQ-016 (Total amount must equal item count times unit price minus discount) via UnderTest.Tests.RuleTests.Req016_TotalAmountMatchesPriceArithmetic
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2585903Z [COVERED ] REQ-017 (Tax amount must be non-negative) via UnderTest.Tests.RuleTests.Req017_TaxAmountMustBeNonNegative
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2586775Z [COVERED ] REQ-018 (Tax-exempt orders must supply an exemption id) via UnderTest.Tests.RuleTests.Req018_TaxExemptOrdersNeedExemptionId
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2587966Z [COVERED ] REQ-019 (Item count must be at least 1) via UnderTest.Tests.RuleTests.Req019_ItemCountMustBeAtLeastOne
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2588859Z [COVERED ] REQ-020 (Inventory available must be non-negative) via UnderTest.Tests.RuleTests.Req020_InventoryAvailableMustBeNonNegative
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2589901Z [COVERED ] REQ-021 (Non-backorder orders must have sufficient inventory for the item count) via UnderTest.Tests.RuleTests.Req021_NonBackorderNeedsSufficientInventory
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2602372Z [COVERED ] REQ-022 (Backorder orders must be flagged with warehouse zone BACKORDER) via UnderTest.Tests.RuleTests.Req022_BackorderNeedsBackorderZone
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2604407Z [COVERED ] REQ-023 (Hazardous items must not use express shipping) via UnderTest.Tests.RuleTests.Req023_HazardousMustNotUseExpressShipping
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2606005Z [COVERED ] REQ-024 (Warehouse zone must be one of the known zone codes) via UnderTest.Tests.RuleTests.Req024_WarehouseZoneMustBeKnown
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2607582Z [COVERED ] REQ-025 (Fraud-flagged orders must not be marked priority) via UnderTest.Tests.RuleTests.Req025_FraudFlaggedMustNotBePriority
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2609136Z [COVERED ] REQ-026 (Customer email must contain an at sign and a dot) via UnderTest.Tests.RuleTests.Req026_CustomerEmailMustLookValid
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2610865Z [COVERED ] REQ-027 (Hazardous item orders require a customer age of at least 21) via UnderTest.Tests.RuleTests.Req027_HazardousOrdersNeedAdultCustomer
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2612476Z [COVERED ] REQ-028 (Refund amount must not exceed the total amount) via UnderTest.Tests.RuleTests.Req028_RefundAmountMustNotExceedTotal
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2614234Z [COVERED ] REQ-029 (Refund requested flag must be set when refund amount is nonzero) via UnderTest.Tests.RuleTests.Req029_RefundRequestedFlagMustMatchAmount
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2616011Z [COVERED ] REQ-030 (Gift orders must include a gift message of 1 to 200 characters) via UnderTest.Tests.RuleTests.Req030_GiftOrdersNeedGiftMessage
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2617691Z [COVERED ] REQ-031 (B2B orders must include a purchase order number) via UnderTest.Tests.RuleTests.Req031_B2BOrdersNeedPurchaseOrderNumber
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2619476Z [COVERED ] REQ-032 (Currency must be one of USD EUR GBP or CAD) via UnderTest.Tests.RuleTests.Req032_CurrencyMustBeSupported
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2621087Z [COVERED ] REQ-033 (Tax amount must not exceed 30 percent of the total amount) via UnderTest.Tests.RuleTests.Req033_TaxAmountWithinThirtyPercentOfTotal
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2622725Z [COVERED ] REQ-034 (International orders must declare a country code of 2 to 3 characters) via UnderTest.Tests.RuleTests.Req034_InternationalOrdersNeedShortCountryCode
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2624466Z [COVERED ] REQ-035 (Signature-required shipments must have an SLA of at least 24 hours) via UnderTest.Tests.RuleTests.Req035_SignatureRequiredNeedsLongerSla
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2625962Z [COVERED ] REQ-036 (Priority orders must have an SLA of at most 48 hours) via UnderTest.Tests.RuleTests.Req036_PriorityOrdersNeedShorterSla
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2627571Z [COVERED ] REQ-037 (Subscription orders must specify a positive interval in days) via UnderTest.Tests.RuleTests.Req037_SubscriptionNeedsPositiveInterval
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2628704Z [COVERED ] REQ-038 (Loyalty tier must be one of None Silver Gold or Platinum) via UnderTest.Tests.RuleTests.Req038_LoyaltyTierMustBeKnown
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2630734Z [COVERED ] REQ-039 (Platinum-tier customers must not be fraud-flagged) via UnderTest.Tests.RuleTests.Req039_PlatinumTierMustNotBeFraudFlagged
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2632343Z [COVERED ] REQ-040 (Subscription interval when set must be at least 7 days) via UnderTest.Tests.RuleTests.Req040_SubscriptionIntervalMustBeAtLeastSevenDays
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2633840Z [COVERED ] REQ-041 (Max promo stack must be at least 1) via UnderTest.Tests.RuleTests.Req041_MaxPromoStackMustBeAtLeastOne
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2635340Z [COVERED ] REQ-042 (Loyalty tier None must not receive a discount above 10 percent) via UnderTest.Tests.RuleTests.Req042_NoneTierCappedAtTenPercentDiscount
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2637258Z [COVERED ] REQ-043 (Shipping method must be one of Standard Express or Overnight) via UnderTest.Tests.RuleTests.Req043_ShippingMethodMustBeSupported
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2638967Z [COVERED ] REQ-044 (Express shipping flag must match an Express or Overnight shipping method) via UnderTest.Tests.RuleTests.Req044_ExpressFlagMustMatchShippingMethod
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2639959Z [COVERED ] REQ-045 (Carrier id must be one of UPS FedEx USPS or DHL) via UnderTest.Tests.RuleTests.Req045_CarrierIdMustBeKnown
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2641137Z [COVERED ] REQ-046 (Tracking number must be set once the label is printed) via UnderTest.Tests.RuleTests.Req046_TrackingNumberRequiredOnceLabelPrinted
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2641984Z [COVERED ] REQ-047 (Weight must be positive) via UnderTest.Tests.RuleTests.Req047_WeightMustBePositive
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2642825Z [COVERED ] REQ-048 (Parcels over 30kg must not use Standard shipping) via UnderTest.Tests.RuleTests.Req048_OverweightParcelsMustNotUseStandard
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2643437Z 
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2643671Z SUMMARY: 48 requirements, 48 covered, 0 orphaned
+release-evidence-gate	Run the requirements traceability gate (48 requirements)	2026-09-11T18:55:54.2644082Z GATE RESULT: PASS
+release-evidence-gate	Install Python tooling	﻿2026-09-11T18:55:54.2847323Z ##[group]Run pip install -r requirements-tools.txt
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2847733Z ^[[36;1mpip install -r requirements-tools.txt^[[0m
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2888438Z shell: /usr/bin/bash -e {0}
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2888720Z env:
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2888938Z   DOTNET_ROOT: /usr/share/dotnet
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2889267Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2889714Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2914203Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2914725Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2915158Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2915612Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:54.2915950Z ##[endgroup]
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.0243086Z Collecting cyclonedx-python-lib==11.12.0 (from cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.0958286Z   Downloading cyclonedx_python_lib-11.12.0-py3-none-any.whl.metadata (6.9 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.1232731Z Collecting pytest==8.2.0 (from -r requirements-tools.txt (line 2))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.1278723Z   Downloading pytest-8.2.0-py3-none-any.whl.metadata (7.5 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.1456131Z Collecting license-expression<31,>=30 (from cyclonedx-python-lib==11.12.0->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.1497912Z   Downloading license_expression-30.4.4-py3-none-any.whl.metadata (11 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.1694531Z Collecting packageurl-python<2,>=0.11 (from cyclonedx-python-lib==11.12.0->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.1738126Z   Downloading packageurl_python-0.17.6-py3-none-any.whl.metadata (5.1 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.1900665Z Collecting py-serializable<3.0.0,>=2.1.0 (from cyclonedx-python-lib==11.12.0->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.1943101Z   Downloading py_serializable-2.1.0-py3-none-any.whl.metadata (4.3 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2075378Z Collecting sortedcontainers<3.0.0,>=2.4.0 (from cyclonedx-python-lib==11.12.0->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2122498Z   Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl.metadata (10 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2297552Z Collecting typing_extensions<5.0,>=4.6 (from cyclonedx-python-lib==11.12.0->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2341689Z   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2454061Z Collecting iniconfig (from pytest==8.2.0->-r requirements-tools.txt (line 2))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2505393Z   Downloading iniconfig-2.3.0-py3-none-any.whl.metadata (2.5 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2666733Z Collecting packaging (from pytest==8.2.0->-r requirements-tools.txt (line 2))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2711480Z   Downloading packaging-26.3-py3-none-any.whl.metadata (3.5 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2833683Z Collecting pluggy<2.0,>=1.5 (from pytest==8.2.0->-r requirements-tools.txt (line 2))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.2877003Z   Downloading pluggy-1.6.0-py3-none-any.whl.metadata (4.8 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.3092999Z Collecting jsonschema<5.0,>=4.25 (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.3134968Z   Downloading jsonschema-4.26.0-py3-none-any.whl.metadata (7.6 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.3480651Z Collecting referencing>=0.28.4 (from cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.3524023Z   Downloading referencing-0.37.0-py3-none-any.whl.metadata (2.8 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.3665773Z Collecting attrs>=22.2.0 (from jsonschema<5.0,>=4.25->jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.3708323Z   Downloading attrs-26.1.0-py3-none-any.whl.metadata (8.8 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.3833926Z Collecting jsonschema-specifications>=2023.03.6 (from jsonschema<5.0,>=4.25->jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.3890780Z   Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl.metadata (2.9 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.6324191Z Collecting rpds-py>=0.25.0 (from jsonschema<5.0,>=4.25->jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.6369888Z   Downloading rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.1 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.6495688Z Collecting fqdn (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.6538552Z   Downloading fqdn-1.5.1-py3-none-any.whl.metadata (1.4 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.6674838Z Collecting idna (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.6715788Z   Downloading idna-3.19-py3-none-any.whl.metadata (9.2 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.6843248Z Collecting isoduration (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.6884862Z   Downloading isoduration-20.11.0-py3-none-any.whl.metadata (5.7 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7006860Z Collecting jsonpointer>1.13 (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7047761Z   Downloading jsonpointer-3.1.1-py3-none-any.whl.metadata (2.4 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7155147Z Collecting rfc3339-validator (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7196681Z   Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl.metadata (1.5 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7297551Z Collecting rfc3986-validator>0.1.0 (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7338777Z   Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl.metadata (1.7 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7441798Z Collecting rfc3987-syntax>=1.1.0 (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7482773Z   Downloading rfc3987_syntax-1.1.0-py3-none-any.whl.metadata (7.7 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7674876Z Collecting uri-template (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7721727Z   Downloading uri_template-1.3.0-py3-none-any.whl.metadata (8.8 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7861936Z Collecting webcolors>=24.6.0 (from jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.7906043Z   Downloading webcolors-25.10.0-py3-none-any.whl.metadata (2.2 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8044296Z Collecting boolean.py>=4.0 (from license-expression<31,>=30->cyclonedx-python-lib==11.12.0->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8087799Z   Downloading boolean_py-5.0-py3-none-any.whl.metadata (2.3 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8222951Z Collecting defusedxml<0.8.0,>=0.7.1 (from py-serializable<3.0.0,>=2.1.0->cyclonedx-python-lib==11.12.0->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8266162Z   Downloading defusedxml-0.7.1-py2.py3-none-any.whl.metadata (32 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8488244Z Collecting lark>=1.2.2 (from rfc3987-syntax>=1.1.0->jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8532171Z   Downloading lark-1.3.1-py3-none-any.whl.metadata (1.8 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8702172Z Collecting arrow>=0.15.0 (from isoduration->jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8744465Z   Downloading arrow-1.4.0-py3-none-any.whl.metadata (7.7 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8888136Z Collecting python-dateutil>=2.7.0 (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.8940707Z   Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl.metadata (8.4 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9085870Z Collecting tzdata (from arrow>=0.15.0->isoduration->jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9129164Z   Downloading tzdata-2026.3-py2.py3-none-any.whl.metadata (1.4 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9262718Z Collecting six>=1.5 (from python-dateutil>=2.7.0->arrow>=0.15.0->isoduration->jsonschema[format-nongpl]<5.0,>=4.25; extra == "validation" or extra == "json-validation"->cyclonedx-python-lib[json-validation]==11.12.0->-r requirements-tools.txt (line 1))
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9304507Z   Downloading six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9404602Z Downloading cyclonedx_python_lib-11.12.0-py3-none-any.whl (529 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9541575Z    ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 529.5/529.5 kB 47.0 MB/s  0:00:00
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9589722Z Downloading pytest-8.2.0-py3-none-any.whl (339 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9680985Z Downloading jsonschema-4.26.0-py3-none-any.whl (90 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9743932Z Downloading license_expression-30.4.4-py3-none-any.whl (120 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9807798Z Downloading packageurl_python-0.17.6-py3-none-any.whl (36 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9866806Z Downloading pluggy-1.6.0-py3-none-any.whl (20 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9925875Z Downloading py_serializable-2.1.0-py3-none-any.whl (23 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:55.9984459Z Downloading defusedxml-0.7.1-py2.py3-none-any.whl (25 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0042515Z Downloading sortedcontainers-2.4.0-py2.py3-none-any.whl (29 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0101936Z Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0165391Z Downloading attrs-26.1.0-py3-none-any.whl (67 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0228172Z Downloading boolean_py-5.0-py3-none-any.whl (26 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0286862Z Downloading jsonpointer-3.1.1-py3-none-any.whl (7.7 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0344022Z Downloading jsonschema_specifications-2025.9.1-py3-none-any.whl (18 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0406026Z Downloading referencing-0.37.0-py3-none-any.whl (26 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0466956Z Downloading rfc3986_validator-0.1.1-py2.py3-none-any.whl (4.2 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0528829Z Downloading rfc3987_syntax-1.1.0-py3-none-any.whl (8.0 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0590783Z Downloading lark-1.3.1-py3-none-any.whl (113 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0658017Z Downloading rpds_py-2026.6.3-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (366 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0729272Z Downloading webcolors-25.10.0-py3-none-any.whl (14 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0795210Z Downloading fqdn-1.5.1-py3-none-any.whl (9.1 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0854678Z Downloading idna-3.19-py3-none-any.whl (68 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0918944Z Downloading iniconfig-2.3.0-py3-none-any.whl (7.5 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.0987407Z Downloading isoduration-20.11.0-py3-none-any.whl (11 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.1051311Z Downloading arrow-1.4.0-py3-none-any.whl (68 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.1115718Z Downloading python_dateutil-2.9.0.post0-py2.py3-none-any.whl (229 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.1185880Z Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.1253258Z Downloading packaging-26.3-py3-none-any.whl (129 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.1317614Z Downloading rfc3339_validator-0.1.4-py2.py3-none-any.whl (3.5 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.1377012Z Downloading tzdata-2026.3-py2.py3-none-any.whl (348 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.1446756Z Downloading uri_template-1.3.0-py3-none-any.whl (11 kB)
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:56.2742656Z Installing collected packages: sortedcontainers, boolean.py, webcolors, uri-template, tzdata, typing_extensions, six, rpds-py, rfc3986-validator, pluggy, packaging, packageurl-python, license-expression, lark, jsonpointer, iniconfig, idna, fqdn, defusedxml, attrs, rfc3987-syntax, rfc3339-validator, referencing, python-dateutil, pytest, py-serializable, jsonschema-specifications, cyclonedx-python-lib, arrow, jsonschema, isoduration
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:57.4057370Z 
+release-evidence-gate	Install Python tooling	2026-09-11T18:55:57.4087111Z Successfully installed arrow-1.4.0 attrs-26.1.0 boolean.py-5.0 cyclonedx-python-lib-11.12.0 defusedxml-0.7.1 fqdn-1.5.1 idna-3.19 iniconfig-2.3.0 isoduration-20.11.0 jsonpointer-3.1.1 jsonschema-4.26.0 jsonschema-specifications-2025.9.1 lark-1.3.1 license-expression-30.4.4 packageurl-python-0.17.6 packaging-26.3 pluggy-1.6.0 py-serializable-2.1.0 pytest-8.2.0 python-dateutil-2.9.0.post0 referencing-0.37.0 rfc3339-validator-0.1.4 rfc3986-validator-0.1.1 rfc3987-syntax-1.1.0 rpds-py-2026.6.3 six-1.17.0 sortedcontainers-2.4.0 typing_extensions-4.16.0 tzdata-2026.3 uri-template-1.3.0 webcolors-25.10.0
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	﻿2026-09-11T18:55:57.4949452Z ##[group]Run pytest tests -q
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4949793Z ^[[36;1mpytest tests -q^[[0m
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4989077Z shell: /usr/bin/bash -e {0}
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4989352Z env:
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4989572Z   DOTNET_ROOT: /usr/share/dotnet
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4989911Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4990574Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4991006Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4991396Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4992008Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4992386Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:57.4992716Z ##[endgroup]
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:59.0960165Z ........                                                                 [100%]
+release-evidence-gate	Run Python unit tests (SBOM generator and vuln block)	2026-09-11T18:55:59.0961079Z 8 passed in 1.33s
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	﻿2026-09-11T18:55:59.3114327Z ##[group]Run python tools/sbom_gen.py --python-manifest data/python-requirements.txt --dotnet-manifest data/dotnet-packages.csv --out docs/sbom_output.json
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3116219Z ^[[36;1mpython tools/sbom_gen.py --python-manifest data/python-requirements.txt --dotnet-manifest data/dotnet-packages.csv --out docs/sbom_output.json^[[0m
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3168566Z shell: /usr/bin/bash -e {0}
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3168846Z env:
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3169222Z   DOTNET_ROOT: /usr/share/dotnet
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3169726Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3170620Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3171337Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3171856Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3172237Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3172614Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:55:59.3172982Z ##[endgroup]
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:56:00.6283691Z python dependencies : 40
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:56:00.6284107Z dotnet dependencies : 23
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:56:00.6284375Z total dependencies  : 63
+release-evidence-gate	Generate CycloneDX SBOM (63 dependencies)	2026-09-11T18:56:00.6284748Z wrote docs/sbom_output.json -- 63 components, valid CycloneDX 1.5
+release-evidence-gate	Block merge on newly disclosed vulnerability	﻿2026-09-11T18:56:00.7478245Z ##[group]Run python tools/vuln_block.py --sbom docs/sbom_output.json --known-vulnerable data/known-vulnerable.json
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7479067Z ^[[36;1mpython tools/vuln_block.py --sbom docs/sbom_output.json --known-vulnerable data/known-vulnerable.json^[[0m
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7518269Z shell: /usr/bin/bash -e {0}
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7518549Z env:
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7518767Z   DOTNET_ROOT: /usr/share/dotnet
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7519104Z   pythonLocation: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7519542Z   PKG_CONFIG_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib/pkgconfig
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7519991Z   Python_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7520540Z   Python2_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7520932Z   Python3_ROOT_DIR: /opt/hostedtoolcache/Python/3.12.14/x64
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7521317Z   LD_LIBRARY_PATH: /opt/hostedtoolcache/Python/3.12.14/x64/lib
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7521647Z ##[endgroup]
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7904726Z checked 63 SBOM components against 1 known-vulnerable fixture entries
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7905539Z no known-vulnerable components found
+release-evidence-gate	Block merge on newly disclosed vulnerability	2026-09-11T18:56:00.7906031Z MERGE BLOCK RESULT: PASS
+release-evidence-gate	Post Run actions/setup-python@v5	﻿2026-09-11T18:56:00.8032487Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+release-evidence-gate	Post Run actions/setup-python@v5	2026-09-11T18:56:00.8033727Z Post job cleanup.
+release-evidence-gate	Post Run actions/setup-python@v5	2026-09-11T18:56:00.9286112Z (node:3190) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+release-evidence-gate	Post Run actions/setup-python@v5	2026-09-11T18:56:00.9287393Z (Use `node --trace-deprecation ...` to show where the warning was created)
+release-evidence-gate	Post Run actions/setup-dotnet@v4	﻿2026-09-11T18:56:00.9446307Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+release-evidence-gate	Post Run actions/setup-dotnet@v4	2026-09-11T18:56:00.9447492Z Post job cleanup.
+release-evidence-gate	Post Run actions/setup-dotnet@v4	2026-09-11T18:56:01.0764383Z (node:3198) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+release-evidence-gate	Post Run actions/setup-dotnet@v4	2026-09-11T18:56:01.0765643Z (Use `node --trace-deprecation ...` to show where the warning was created)
+release-evidence-gate	Post Run actions/checkout@v4	﻿2026-09-11T18:56:01.0952030Z Node 20 is being deprecated. This workflow is running with Node 24 by default. If you need to temporarily use Node 20, you can set the ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION=true environment variable. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.0953266Z Post job cleanup.
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.1845267Z [command]/usr/bin/git version
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.1891419Z git version 2.55.0
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.1932686Z Temporarily overriding HOME='/home/runner/work/_temp/6c756cb4-6a10-48bf-badd-f2b50b593f28' before making global git config changes
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.1934006Z Adding repository directory to the temporary git global config as a safe directory
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.1939105Z [command]/usr/bin/git config --global --add safe.directory /home/runner/work/release-evidence-gate/release-evidence-gate
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.1982149Z [command]/usr/bin/git config --local --name-only --get-regexp core\.sshCommand
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.2018113Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :"
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.2299583Z [command]/usr/bin/git config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.2329711Z http.https://github.com/.extraheader
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.2341689Z [command]/usr/bin/git config --local --unset-all http.https://github.com/.extraheader
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.2378667Z [command]/usr/bin/git submodule foreach --recursive sh -c "git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :"
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.2668990Z [command]/usr/bin/git config --local --name-only --get-regexp ^includeIf\.gitdir:
+release-evidence-gate	Post Run actions/checkout@v4	2026-09-11T18:56:01.2714716Z [command]/usr/bin/git submodule foreach --recursive git config --local --show-origin --name-only --get-regexp remote.origin.url
+release-evidence-gate	Complete job	﻿2026-09-11T18:56:01.3139454Z Cleaning up orphan processes
+release-evidence-gate	Complete job	2026-09-11T18:56:01.3496662Z Terminate orphan process: pid (2767) (dotnet)
+release-evidence-gate	Complete job	2026-09-11T18:56:01.3532713Z Terminate orphan process: pid (2768) (dotnet)
+release-evidence-gate	Complete job	2026-09-11T18:56:01.3568644Z Terminate orphan process: pid (2769) (dotnet)
+release-evidence-gate	Complete job	2026-09-11T18:56:01.3608602Z Terminate orphan process: pid (2846) (VBCSCompiler)
+release-evidence-gate	Complete job	2026-09-11T18:56:01.3631711Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-dotnet@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
